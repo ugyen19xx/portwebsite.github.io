@@ -1,0 +1,173 @@
+table{
+	width: 500px;
+}
+header{
+	height: 200px;
+	width: 100%;
+	margin-bottom: 20px;
+	
+	margin-right: 100px;
+}
+img.logo{
+	height: 100px;
+	width:200px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+input{
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 50px;
+  font-family: fontawesome;
+  margin-left: 100px;
+  float: center;
+}
+form.search{
+	float: right;
+	margin-bottom: 100px;
+	
+	
+}
+a.nav:link, a.nav:visited
+		{
+		background-color: black;
+		color: white;
+		padding: 15px;
+		display: inline-block;
+		border-radius: 20px;
+		margin-top: 50px;
+		margin-right: 100px;
+		text-decoration: none;
+	    }
+	    a.nav:hover, a.nav:active
+	    {
+	    color: black;
+	    background-color: white;	
+	    }
+
+
+body{
+	background-image: url('https://i.pinimg.com/originals/bc/dc/71/bcdc7180778ffe0681e3b01c3ca67993.png') ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+footer{
+	background-color: lightgray;
+	height: 200px;
+	width: 101%;
+	border-top-right-radius: 100px;
+	border-top-left-radius: 100px;
+	margin-top: 1350px;	
+	background-attachment: fixed;
+}
+p.copy{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	margin-top: 50px;
+}
+.white{
+	color: white;
+}
+@keyframes abc {
+
+  0% {
+    background-image: url("https://i.pinimg.com/564x/81/ac/01/81ac01b29ba0e674304e88c32fe59d75.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+  }
+  50% {
+    background-image: url("https://i.pinimg.com/564x/96/7f/43/967f430f9ac39da33121a14e97bec046.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-image: url("https://i.pinimg.com/736x/d1/f7/9a/d1f79add2a5e4b7465e7d2d8af294fbd.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+      }
+}
+
+.element1 {
+  animation-name: abc;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  width: 500px;
+  height: 400px;
+  display: grid;
+  float: left;
+
+  grid-template-columns:1fr 1fr;
+  margin-top: 200px;
+}
+
+@keyframes abcd {
+
+  0% {
+    background-image: url("https://storage.googleapis.com/webdesignledger.pub.network/WDL/work-better-with-coders-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    width: 700px;
+  }
+  50% {
+    background-image: url("https://i.pinimg.com/564x/b6/b3/b9/b6b3b95302c626adb3d22847a40c724f.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+  }
+  100% {
+    background-image: url("https://storage.googleapis.com/webdesignledger.pub.network/WDL/work-better-with-coders-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;  
+      }
+}
+
+.element {
+  animation-name: abcd;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  width: 700px;
+  height: 400px;
+  display: grid;
+
+  grid-template-columns:1fr;
+}
+
+p{
+	text-align: right;
+	font-family: monospace;
+	color: orange;
+}
+p.slogan{
+	margin-top: 400px;
+	text-align: initial;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 30px;
+	min-width: 400px;
+
+
+}
+img.thumbnail{
+	margin-top: 20px;
+	height: 20px;
+	width: 20px;
+}
+h1{
+	margin-left: 33.5%;
+}
